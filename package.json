@@ -21,11 +21,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "homepage": "http://minzez.github.io/portfolio",
   "devDependencies": {
     "cross-env": "^5.2.0"
   }
-
 }

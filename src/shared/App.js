@@ -8,8 +8,8 @@ class App extends Component {
         return (
             <div>
                 <Menu/>
-                <Route exact path="/" component={Projects}/>
-                <Route path="/about" component={About}/>
+                <Route exact path="/portfolio" component={Projects}/>
+                <Route path="/portfolio/about" component={About}/>
             </div>
         );
     }
