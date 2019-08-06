@@ -6,8 +6,8 @@ import { Button } from 'reactstrap';
 const Menu = () => {
     return (
         <div>
-            <Link to="/"><Button color="outline-success" variant="outline-success">Projects</Button></Link>
-            <Link to="/about"><Button color="outline-warning" variant="outline-warning">About</Button></Link>
+            <Link to="/portfolio"><Button color="outline-success" variant="outline-success">Projects</Button></Link>
+            <Link to="/portfolio/about"><Button color="outline-warning" variant="outline-warning">About</Button></Link>
             <hr/>
         </div>
     );
