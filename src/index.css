@@ -3,3 +3,43 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+svg {
+  margin: 0 10px 0 0;
+  color: #A1A1A1;
+}
+
+a:hover {
+  color: #A1A2A1;
+}
+
+svg:hover {
+  color: #A1A2A1;
+}
+
+/* .emailImg {
+  width: 24px;
+} */
+.emailImg img:last-child{
+  display:none
+} 
+.emailImg:hover img:first-child{
+  display:none
+} 
+.emailImg:hover img:last-child{
+  display:inline-block
+}
+
+.gitImg img:last-child{
+  display:none
+} 
+.gitImg:hover img:first-child{
+  display:none
+} 
+.gitImg:hover img:last-child{
+  display:inline-block
+}
+
+h2 {
+  color: gray;
+}

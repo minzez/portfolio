@@ -8,7 +8,7 @@ class App extends Component {
         return (
             <div>
                 <Menu/>
-                <Route path="/portfolio" component={Projects}/>
+                <Route exact path="/portfolio" component={Projects}/>
                 <Route path="/portfolio/about" component={About}/>
             </div>
         );
